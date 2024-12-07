@@ -1,0 +1,38 @@
+1. npm create vite@latest
+2. cd my-project
+3. npm install
+
+4. Install Material UI, React-Router, FullCalendar, React-Pro-Sidebar, Formik, Yup
+WEBISTES:
+======================
+https://mui.com
+https://formik.org
+https://reactrouter.com
+https://fullcalendar.io
+https://nivo.rocks
+
+INSTALLATIONS:
+======================
+npm i @mui/material @emotion/react @emotion/styled @mui/x-data-grid @mui/icons-material react-router-dom@latest react-pro-sidebar formik yup @fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list @nivo/core @nivo/pie @nivo/line @nivo/geo
+
+Color design token - Extension: Tailwind Shades
+Keys: Ctrl+k Ctrl+g
+===================
+#666666 - Gray Accent
+#00127f - Dark Blue Accent
+#4cceac - Green Accent
+#db4f4a - Red Accent
+#6870fa - Blue Accent
+
+==============================
+HOW TO PUSH IN GITHUB:
+==============================
+npm i gh-pages --save-dev
+git init
+git add .
+git status
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/arnelnrose/react-admin.git
+git push -u origin main
+
